@@ -22,15 +22,7 @@ public class Main {
 
 //  Написать метод, принимающий на вход два аргумента: len и initialValue, и возвращающий одномерный
 //  массив типа int длиной len, каждая ячейка которого равна initialValue;
-    private static int[] ex4(int len, int initialValue) {
-        int [] arr = new int[len];
-        int i = 0;
-        while (i< arr.length) {
-             i = initialValue;
-            i++;
-        }
-        return arr;
-    }
+
 
 
     private static void ex3() {
