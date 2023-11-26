@@ -83,18 +83,7 @@ public class Main {
         System.out.println(max);
     }
 
-    private static void ex1() {
-//Задача 1
-//Написать программу, которая запросит пользователя ввести <Имя> в консоли.
-//Получит введенную строку и выведет в консоль сообщение “Привет, <Имя>!”
-        Date date = new Date();
-        Scanner iScanner = new Scanner(System.in);
-        System.out.println("Введите имя: ");
-        String name = iScanner.nextLine();
-        System.out.println("Привет, %S!" + name);
-        iScanner.close();
-        System.out.println(date);   //для Д/З
-    }
+
 
 }
 
