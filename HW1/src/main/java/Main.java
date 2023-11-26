@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
     //    ex1();
     //    ex2();
-    //    ex3();
+    //    e122121212121212x3();
         ex4(2,2);
 
     }
