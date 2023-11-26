@@ -65,23 +65,7 @@ public class Main {
     }
 
     private static void ex2() {
-//Задача 2
-//Дан массив двоичных чисел, например [1,1,0,1,1,1,1,1,1,1], вывести максимальное количество подряд идущих 1.
-        int[] arr = {1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0};
-        int count = 0;
-        int max = 0;
-        for (int num : arr) {   //это цикл forage надо почитать, он сосзданя для коллекций, где нет индексов и идёт просот перебор по элементам
-            if (num == 1) {
-                count += 1;
-                if (count > max) {
-                    max = count;
-                }
-            } else {
-                count = 0;
-            }
-        }
-        System.out.println(max);
-    }
+
 
     private static void ex1() {
 //Задача 1
